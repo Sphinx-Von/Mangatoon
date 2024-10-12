@@ -23,6 +23,9 @@ The Webtoon Info App includes the following key features:
     Interactive Feature:
         Users can rate a webtoon (1-5 stars).
         The average rating is dynamically displayed on the detail screen.
+        In the Webtoon Info App, I have implemented an efficient data management strategy utilizing the Room Database for local storage. To enhance user experience, I employed an onDismiss callback mechanism to facilitate the removal of webtoons from the favorites list.
+
+This feature allows users to easily dismiss webtoons from their favorites by swiping left or right, triggering the onDismiss action. Upon dismissal, the selected webtoon is promptly deleted from the Room Database, ensuring that the changes are immediately reflected in the user interface. This approach not only streamlines the process of managing favorites but also maintains data integrity and responsiveness within the application.
 
         Tech Stack
 
